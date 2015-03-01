@@ -1,6 +1,6 @@
 package com.flashvisions.clients.android.red5pro.sample;
 
-import com.flashvisions.clients.android.red5broadcaster.R;
+import com.flashvisions.clients.android.red5pro.broadcastsubscribesample.R;
 
 import android.app.Activity;
 import android.os.Bundle;

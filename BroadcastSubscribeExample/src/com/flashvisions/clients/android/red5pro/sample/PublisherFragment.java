@@ -1,6 +1,6 @@
 package com.flashvisions.clients.android.red5pro.sample;
 
-import com.flashvisions.clients.android.red5broadcaster.R;
+import com.flashvisions.clients.android.red5pro.broadcastsubscribesample.R;
 import com.red5pro.streaming.R5Connection;
 import com.red5pro.streaming.R5Stream;
 import com.red5pro.streaming.R5StreamProtocol;

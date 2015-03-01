@@ -1,7 +1,7 @@
 package com.flashvisions.clients.android.red5pro.sample;
 
 
-import com.flashvisions.clients.android.red5broadcaster.R;
+import com.flashvisions.clients.android.red5pro.broadcastsubscribesample.R;
 
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
