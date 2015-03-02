@@ -1,6 +1,9 @@
 package com.flashvisions.clients.android.red5pro.sample;
 
 
+import com.flashvisions.clients.android.red5pro.sample.fragments.PublisherFragment;
+import com.flashvisions.clients.android.red5pro.sample.fragments.SubscriberFragment;
+
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;

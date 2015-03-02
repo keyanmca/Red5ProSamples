@@ -1,6 +1,7 @@
-package com.flashvisions.clients.android.red5pro.sample;
+package com.flashvisions.clients.android.red5pro.sample.fragments;
 
 import com.flashvisions.clients.android.red5pro.broadcastsubscribesample.R;
+import com.flashvisions.clients.android.red5pro.sample.FragmentHostListener;
 import com.red5pro.streaming.R5Connection;
 import com.red5pro.streaming.R5Stream;
 import com.red5pro.streaming.R5StreamProtocol;
@@ -17,14 +18,13 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.SurfaceHolder;
-import android.view.SurfaceHolder.Callback;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.LinearLayout;
 
+@SuppressWarnings("deprecation")
 public class PublisherFragment extends Fragment implements OnClickListener, SurfaceHolder.Callback 
 {
 	View root;
@@ -32,7 +32,6 @@ public class PublisherFragment extends Fragment implements OnClickListener, Surf
 	R5Stream stream;
 	boolean isPublishing = false;
 	FragmentHostListener listener;
-	LinearLayout layoutDownload;
 	public R5Configuration configuration;
 	
 	public static PublisherFragment newInstance() {
@@ -120,7 +119,7 @@ public class PublisherFragment extends Fragment implements OnClickListener, Surf
 
 		  stream.attachCamera(r5Camera);
 		  stream.attachMic(r5Microphone);
-		  stream.publish("red5prostream");
+		  stream.publish("streamName");
 	}
 	
 	public void stop() 
